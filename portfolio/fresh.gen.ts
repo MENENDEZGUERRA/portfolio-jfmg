@@ -9,6 +9,7 @@ import * as $api_joke from "./routes/api/joke.ts";
 import * as $greet_name_ from "./routes/greet/[name].tsx";
 import * as $index from "./routes/index.tsx";
 import * as $DarkModeButton from "./islands/DarkModeButton.tsx";
+import * as $Projects from "./islands/Projects.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -22,6 +23,7 @@ const manifest = {
   },
   islands: {
     "./islands/DarkModeButton.tsx": $DarkModeButton,
+    "./islands/Projects.tsx": $Projects,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;
