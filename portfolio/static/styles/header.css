@@ -1,0 +1,55 @@
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .nav-link:hover {
+    color: #333;
+  }
+  
+  /* EESTILO BOTONES */
+  .contact-button {
+    padding: 0.5rem 1rem;
+
+    background: #ff5454;
+    border-radius: 0.625rem;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 0.0625rem;
+    box-shadow: 0.125rem 0.0625rem 0rem 0rem rgba(255, 255, 255, 1);
+
+    transition: opacity 0.2s;
+  }
+  
+  .dark-mode-button {
+    padding: 0.5rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+  
+
+  .contact-button:hover {
+    opacity: 0.9;
+  }
+  
+  .dark-mode-button:hover {
+    opacity: 0.8;
+  }
