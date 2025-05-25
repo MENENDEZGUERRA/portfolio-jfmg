@@ -7,7 +7,7 @@ const projects = [
     id: 1,
     name: "E-commerce Platform",
     description: "Plataforma completa de comercio electrónico con sistema de pagos integrado y panel de administración.",
-    image: "https://source.unsplash.com/random/800x600?ecommerce",
+    image: "",
     repoUrl: "#",
     demoUrl: "#"
   },
@@ -15,7 +15,7 @@ const projects = [
     id: 2,
     name: "Task Manager App",
     description: "Aplicación de gestión de tareas con sincronización en tiempo real y multiplataforma.",
-    image: "https://source.unsplash.com/random/800x600?tasks",
+    image: "",
     repoUrl: "#",
     demoUrl: "#"
   },
@@ -23,7 +23,7 @@ const projects = [
     id: 3,
     name: "Social Network",
     description: "Red social moderna con funcionalidades de chat en vivo y recomendaciones personalizadas.",
-    image: "https://source.unsplash.com/random/800x600?social",
+    image: "",
     repoUrl: "#",
     demoUrl: "#"
   }
@@ -38,7 +38,7 @@ export default function Projects() {
         <link rel="stylesheet" href="/styles/projects.css" />
       </Head>
 
-      <section class="projects-container">
+      <section id="projects" class="projects-container">
         {/* Listado lateral */}
         <div class="projects-list">
           {projects.map(project => (
@@ -51,7 +51,7 @@ export default function Projects() {
           ))}
         </div>
 
-        {/* Detalles del proyecto */}
+        {/* Detalles de los proyectos */}
         <div class="project-details">
           <img 
             src={selectedProject.image} 

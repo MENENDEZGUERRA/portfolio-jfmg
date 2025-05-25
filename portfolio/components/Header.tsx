@@ -6,19 +6,20 @@ export default function Header() {
     <>
       <Head>
         <link rel="stylesheet" href="/styles/header.css" />
+        <style>{`html { scroll-behavior: smooth; }`}</style>
       </Head>
       
       <header class="header-container">
         <nav class="nav-links">
-          <a href="/" class="nav-link">HOME</a>
-          <a href="/projects" class="nav-link">PROJECTS</a>
-          <a href="/about" class="nav-link">ABOUT ME</a>
+          <a href="#home" class="nav-link">HOME</a>
+          <a href="#projects" class="nav-link">PROJECTS</a>
+          <a href="#about" class="nav-link">ABOUT ME</a>
         </nav>
 
         <div class="flex items-center">
-          <button class="contact-button">
+          <a href="#contact" class="contact-button">
             CONTACT ME
-          </button>
+          </a>
           <DarkModeButton />
         </div>
       </header>

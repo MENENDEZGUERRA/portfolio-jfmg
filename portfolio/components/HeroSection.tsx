@@ -8,7 +8,7 @@ export default function HeroSection() {
         <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
       </Head>
 
-      <section class="hero-container">
+      <section id="home" class="hero-container">
         <div 
           class="hero-image"
           style={{ backgroundImage: "url('/images/milhouse.gif')", backgroundSize: "cover" }}

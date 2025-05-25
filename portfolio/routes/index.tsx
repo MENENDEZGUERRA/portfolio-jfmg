@@ -3,6 +3,7 @@ import Header from "../components/Header.tsx";
 import HeroSection from "../components/HeroSection.tsx"
 import Projects from "../islands/Projects.tsx"
 import AboutSection from "../components/AboutSection.tsx"
+import ContactSection from "../components/ContactSection.tsx"
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <hr></hr>
       <AboutSection/>
       <hr></hr>
+      <ContactSection/>
     </div>
   );
 }
