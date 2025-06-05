@@ -1,4 +1,3 @@
-
 .projects-container {
     max-width: 1400px;
     margin: 4rem auto;
@@ -50,3 +49,36 @@
     gap: 1rem;
     margin-top: 2rem;
   }
+
+@media (max-width: 768px) {
+  .projects-container {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  .projects-list {
+    border-right: none;
+    border-bottom: 2px solid #e5e7eb;
+    padding-right: 0;
+    padding-bottom: 1rem;
+    max-height: none;
+  }
+
+  .project-details {
+    padding-left: 0;
+  }
+
+  .project-image {
+    height: 250px;
+  }
+
+  .project-buttons {
+    flex-direction: column;
+  }
+
+  .contact-button {
+    width: 100%;
+    text-align: center;
+  }
+}

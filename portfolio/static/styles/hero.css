@@ -48,3 +48,15 @@
     from, to { border-color: transparent }
     50% { border-color: white }
   }
+
+  @media (max-width: 768px) {
+    .hero-text {
+      font-size: 2rem;
+      padding: 0 1rem;
+    }
+  
+    .hero-image {
+      width: 100%;
+      height: 100%;
+    }
+  }

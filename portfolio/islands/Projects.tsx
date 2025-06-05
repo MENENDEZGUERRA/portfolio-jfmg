@@ -7,25 +7,25 @@ const projects = [
     id: 1,
     name: "E-commerce Platform",
     description: "Plataforma completa de comercio electrónico con sistema de pagos integrado y panel de administración.",
-    image: "",
-    repoUrl: "#",
-    demoUrl: "#"
+    image: "/images/proyectos/tnd.png",
+    repoUrl: "https://github.com/MENENDEZGUERRA/proyecto-ecommerce",
+    demoUrl: "https://el-bazar-de-ulthar.deno.dev/productsPage"
   },
   {
     id: 2,
-    name: "Task Manager App",
-    description: "Aplicación de gestión de tareas con sincronización en tiempo real y multiplataforma.",
-    image: "",
-    repoUrl: "#",
-    demoUrl: "#"
+    name: "Libreria Online",
+    description: "Aplicación de gestión de libros con sincronización en tiempo real y multiplataforma.",
+    image: "/images/proyectos/lib.png",
+    repoUrl: "https://github.com/MENENDEZGUERRA/library?tab=readme-ov-file#",
+    demoUrl: "https://menendezguerra.github.io/library/"
   },
   {
     id: 3,
-    name: "Social Network",
-    description: "Red social moderna con funcionalidades de chat en vivo y recomendaciones personalizadas.",
-    image: "",
-    repoUrl: "#",
-    demoUrl: "#"
+    name: "Calculadora Online",
+    description: "Ejercicio Básico de una calculadora online con funcionalidades de suma, resta, multiplicación y división.",
+    image: "/images/proyectos/calc.png",
+    repoUrl: "menendezguerra.github.io/calculator-webpage/",
+    demoUrl: "https://menendezguerra.github.io/calculator-webpage/"
   }
 ];
 

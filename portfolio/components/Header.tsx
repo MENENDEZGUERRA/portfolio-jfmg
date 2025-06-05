@@ -16,9 +16,16 @@ export default function Header() {
           <a href="#about" class="nav-link">ABOUT ME</a>
         </nav>
 
-        <div class="flex items-center">
+        <div class="flex items-center gap-4">
           <a href="#contact" class="contact-button">
             CONTACT ME
+          </a>
+          <a 
+            href="/docs/cv.pdf" 
+            download="cv.pdf"
+            class="contact-button"
+          >
+            DOWNLOAD CV
           </a>
           <DarkModeButton />
         </div>
