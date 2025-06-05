@@ -8,6 +8,7 @@ import * as $about from "./routes/about.tsx";
 import * as $api_joke from "./routes/api/joke.ts";
 import * as $greet_name_ from "./routes/greet/[name].tsx";
 import * as $index from "./routes/index.tsx";
+import * as $AboutSection from "./islands/AboutSection.tsx";
 import * as $DarkModeButton from "./islands/DarkModeButton.tsx";
 import * as $Projects from "./islands/Projects.tsx";
 import type { Manifest } from "$fresh/server.ts";
@@ -22,6 +23,7 @@ const manifest = {
     "./routes/index.tsx": $index,
   },
   islands: {
+    "./islands/AboutSection.tsx": $AboutSection,
     "./islands/DarkModeButton.tsx": $DarkModeButton,
     "./islands/Projects.tsx": $Projects,
   },
