@@ -4,6 +4,7 @@ import HeroSection from "../components/HeroSection.tsx"
 import Projects from "../islands/Projects.tsx"
 import ContactSection from "../components/ContactSection.tsx"
 import AboutSection from "../islands/AboutSection.tsx";
+import TechCarousel from "../islands/TechCarousel.tsx";
 
 
 export default function Home() {
@@ -14,6 +15,8 @@ export default function Home() {
       <Header/>
       <hr></hr>
       <HeroSection/>
+      <hr></hr>
+      <TechCarousel></TechCarousel>
       <hr></hr>
       <Projects/>
       <hr></hr>

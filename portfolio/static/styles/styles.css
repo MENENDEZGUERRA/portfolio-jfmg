@@ -1,0 +1,25 @@
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@font-face {
+  font-family: 'NerdIcons';
+  src: url('/nerd-icons.woff2') format('woff2');
+}
+
+.i-logos-deno { background-image: url("https://api.iconify.design/logos:deno.svg") }
+.i-logos-vitejs { background-image: url("https://api.iconify.design/logos:vitejs.svg") }
+.i-logos-unity { background-image: url("https://api.iconify.design/logos:unity.svg") }
+.i-logos-blender { background-image: url("https://api.iconify.design/logos:blender.svg") }
+.i-logos-react { background-image: url("https://api.iconify.design/logos:react.svg") }
+.i-logos-fresh { background-image: url("https://raw.githubusercontent.com/denoland/fresh/main/www/static/fresh-logo-light.svg") }
+.i-logos-c-sharp { background-image: url("https://api.iconify.design/logos:c-sharp.svg") }
+.i-carbon-unknown { background-image: url("https://api.iconify.design/carbon:unknown.svg") }
+
+[class^="i-"] {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

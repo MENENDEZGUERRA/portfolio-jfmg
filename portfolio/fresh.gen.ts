@@ -11,6 +11,7 @@ import * as $index from "./routes/index.tsx";
 import * as $AboutSection from "./islands/AboutSection.tsx";
 import * as $DarkModeButton from "./islands/DarkModeButton.tsx";
 import * as $Projects from "./islands/Projects.tsx";
+import * as $TechCarousel from "./islands/TechCarousel.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -26,6 +27,7 @@ const manifest = {
     "./islands/AboutSection.tsx": $AboutSection,
     "./islands/DarkModeButton.tsx": $DarkModeButton,
     "./islands/Projects.tsx": $Projects,
+    "./islands/TechCarousel.tsx": $TechCarousel,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

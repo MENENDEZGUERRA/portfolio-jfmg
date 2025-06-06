@@ -26,7 +26,11 @@
     "preact/": "https://esm.sh/preact@10.22.0/",
     "@preact/signals": "https://esm.sh/*@preact/signals@1.2.2",
     "@preact/signals-core": "https://esm.sh/*@preact/signals-core@1.5.1",
-    "$std/": "https://deno.land/std@0.216.0/"
+    "$std/": "https://deno.land/std@0.216.0/",
+    "twind": "https://esm.sh/twind@0.16.19",
+    "twind/": "https://esm.sh/twind@0.16.19/",
+    "@tabler/icons/": "https://esm.sh/@tabler/icons@2.47.0/",
+    "logos:": "https://esm.sh/@nerdism/nerdicons@0.3.0/svg/"
   },
   "compilerOptions": {
     "jsx": "react-jsx",

@@ -21,11 +21,11 @@ const projects = [
   },
   {
     id: 3,
-    name: "Calculadora Online",
-    description: "Ejercicio Básico de una calculadora online con funcionalidades de suma, resta, multiplicación y división.",
-    image: "/images/proyectos/calc.png",
-    repoUrl: "menendezguerra.github.io/calculator-webpage/",
-    demoUrl: "https://menendezguerra.github.io/calculator-webpage/"
+    name: "Itch.io Games",
+    description: "Juegos desarrollados para la plataforma Itch.io",
+    image: "/images/proyectos/itch.png",
+    repoUrl: "https://menendez-guerra.itch.io",
+    demoUrl: "https://menendez-guerra.itch.io"
   }
 ];
 
